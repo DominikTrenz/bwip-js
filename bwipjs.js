@@ -12,19 +12,19 @@ function BWIPJS(freetype, monochrome) {
 
 	// FreeType interface
 	this.ft = {
-		monochrome:freetype.cwrap("monochrome", 'number', ['number']),
-		lookup:freetype.cwrap("find_font", 'number', ['string']),
-		bitmap:freetype.cwrap("get_bitmap", 'number',
-							['number','number','number','number']),
-		width:freetype.cwrap("get_width", 'number', []),
-		height:freetype.cwrap("get_height", 'number', []),
-		left:freetype.cwrap("get_left", 'number', []),
-		top:freetype.cwrap("get_top", 'number', []),
-		advance:freetype.cwrap("get_advance", 'number', []),
-		module:freetype,
+		// monochrome:freetype.cwrap("monochrome", 'number', ['number']),
+		// lookup:freetype.cwrap("find_font", 'number', ['string']),
+		// bitmap:freetype.cwrap("get_bitmap", 'number',
+		// 					['number','number','number','number']),
+		// width:freetype.cwrap("get_width", 'number', []),
+		// height:freetype.cwrap("get_height", 'number', []),
+		// left:freetype.cwrap("get_left", 'number', []),
+		// top:freetype.cwrap("get_top", 'number', []),
+		// advance:freetype.cwrap("get_advance", 'number', []),
+		// module:freetype,
 	};
 
-	this.ft.monochrome(monochrome ? 1 : 0);
+	// this.ft.monochrome(monochrome ? 1 : 0);
 }
 
 BWIPJS.prototype.bitmap = function(bitmap) {
