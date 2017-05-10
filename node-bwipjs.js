@@ -8,8 +8,9 @@
 var url	= require('url'),
 	bwipp = require(__dirname + '/bwipp'),
 	bwipjs = require(__dirname + '/bwipjs'),
-	zlibPNG	= require(__dirname + '/node-zlibPNG'),
-	freetype = require(__dirname + '/freetype')
+	zlibPNG	= require(__dirname + '/node-zlibPNG')
+	// ,
+	// freetype = require(__dirname + '/freetype')
 	;
 
 // This module's primary export is the bwip-js HTTP request handler
