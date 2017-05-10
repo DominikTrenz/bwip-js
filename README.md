@@ -1,3 +1,7 @@
+## Changes
+
+I just removed freetype to use this library for ionic / react
+
 # // Barcode Writer in Pure JavaScript
 
 
